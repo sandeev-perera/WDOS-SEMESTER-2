@@ -1,0 +1,82 @@
+{
+  "main": {
+    "banner": {
+      "image": { "src": "images/yala/yala3.webp", "alt": "banner" },
+      "text": "Yala National park"
+    },
+    "Introduction": {
+      "double-boxes": {
+        "information": {
+          "section-title": "Introduction",
+          "description": "Yala National Park stands as a testament to the island's unparalleled biodiversity and natural beauty. Spanning over 97,000 hectares, this enchanting sanctuary beckons adventurers and wildlife enthusiasts alike, offering a glimpse into the untamed wilderness that defines Sri Lanka's ecological tapestry. Yala is a mosaic of diverse ecosystems, from dense forests and expansive grasslands to serene lakes and meandering rivers. The park's varied landscapes provide a habitat for an extraordinary range of flora and fauna, creating a haven for both endemic and migratory species.",
+          "learn-more": {
+            "href": "https://www.yalasrilanka.lk/",
+            "text": "Learn More"
+          }
+        },
+        "image": { "src": "images/yala.webp", "alt": "yala" }
+      }
+    },
+    "discover": {
+      "section-title": { "text": "What you will discover" },
+      "discover-list": [
+        "Iconic Wildlife Encounters",
+        "Avian Symphony",
+        "Safari Adventures",
+        "Scenic Landscapes"
+      ]
+    },
+    "forest_galery": {
+      "section-title": { "text": "Our Galley" },
+      "Gallery": {
+        "images": [
+          {
+            "src": "images/banner2.webp",
+            "alt": "Yala-img",
+            "loading": "lazy"
+          },
+          {
+            "src": "images/yala/yala2.webp",
+            "alt": "Yala-img",
+            "loading": "lazy"
+          },
+          {
+            "src": "images/yala/yala1.webp",
+            "alt": "Yala-img",
+            "loading": "lazy"
+          },
+          {
+            "src": "images/yala/yala3.webp",
+            "alt": "Yala-img",
+            "loading": "lazy"
+          },
+          {
+            "src": "images/yala/yala4.webp",
+            "alt": "Yala-img",
+            "loading": "lazy"
+          },
+          {
+            "src": "images/Willpattu/willpattu6.webp",
+            "alt": "Yala-img",
+            "loading": "lazy"
+          },
+          {
+            "src": "images/yala/yala8.webp",
+            "alt": "Yala-img",
+            "loading": "lazy"
+          },
+          {
+            "src": "images/yala/yala7.webp",
+            "alt": "Yala-img",
+            "loading": "lazy"
+          },
+          {
+            "src": "images/yala/yala9.webp",
+            "alt": "Yala-img",
+            "loading": "lazy"
+          }
+        ]
+      }
+    }
+  }
+}

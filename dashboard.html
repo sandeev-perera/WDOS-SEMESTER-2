@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/icons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/icons/site.webmanifest" />
+    <link rel="stylesheet" href="style.css">
+    <title>Dashboard</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/logo.webp" alt="logo" />
+        </a>
+      </div>
+      <div class="hamburger">
+        <img
+          src="images/hamburger-menu-svgrepo-com (1).svg"
+          alt="hamburger btn"
+        />
+      </div>
+      <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="Introduction.html">Introduction</a>
+        <a href="Department.html">Department</a>
+        <a href="Leopards.html">SL leopards</a>
+        <a href="Animals in SL.html">Animals in SL</a>
+        <a id="login_avatar" href="login.html"
+        ><img src="images/icons/login_avatar.png" alt="login"
+      /></a>
+      </div>
+      <div class="menu-mobile">
+        <a id="login_avatar" href="login.html"
+        ><img src="images/icons/login_avatar.png" alt="login"
+      /></a>
+        <a href="index.html">Home</a>
+        <a href="Introduction.html">Introduction</a>
+        <a href="Department.html">Department</a>
+        <a href="Leopards.html">SL leopards</a>
+        <a href="Animals in SL.html">Animals in SL</a>
+      </div>
+    </nav>
+    <main>
+      <div id="editor">
+
+        
+      </div>
+      <div class="dashboard">
+        <h1 class="section-title">Dashboard</h1>
+        <div class="dashboardBox">
+
+          <h2 class="dashboardTitle">People who are registered to our newsletter: </h2>
+          <p id="user_message"></p>
+          <ul id="newsletter_emails"></ul>
+        </div>
+
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer_tags">
+          <div class="footer_title"><p>Contact Us</p></div>
+          <a href="#">wildlife@gmail.com</a>
+          <a href="#">+94 112 888 585</a>
+          <a href="#">Battaramulla</a>
+        </div>
+        <div class="footer_tags">
+          <div class="footer_title"><p>Usefull Information</p></div>
+          <a href="index.html">Home</a>
+          <a href="Introduction.html">Introduction</a>
+          <a href="Department.html">Department</a>
+          <a href="Leopards.html">SL leopards</a>
+          <a href="Animals in SL.html">Animals in SL</a>
+        </div>
+        <div class="footer_tags footer_icons">
+          <div class="footer_title"><p>Visit</p></div>
+          <a href="https://twitter.com/slwcs_org?lang=en"
+            ><img src="images/icons/twitter.png" alt="twitter"
+          /></a>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            ><img src="images/icons/youtube.png" alt="youtube"
+          /></a>
+          <a href="https://www.instagram.com/srilankawildlife/?hl=en"
+            ><img src="images/icons/instagram.png" alt="instagram"
+          /></a>
+        </div>
+      </div>
+      <div class="news-letter">
+        <h3>Register for our Newsletter</h3>
+        <form action="#" method="post" id="subscribeForm">
+          <label for="email">Enter email</label>
+          <input type="email" id="email" name="email" required/>
+          <button type ="submit" id="submit">Submit</button>
+        </form>
+
+      </div>
+      <div class="footer-line">
+        <p>&copy; Wildlife Sri Lanka | All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <script src="dashboard.js"></script>
+    <script src="fetchjson.js"></script>
+    <script src="newsletter.js"></script>
+  </body>
+</html>

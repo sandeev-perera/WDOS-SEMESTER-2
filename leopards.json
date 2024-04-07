@@ -1,0 +1,62 @@
+{
+  "main": {
+    "banner": {
+      "image": {
+        "src": "images/leopard-banner.webp"
+      },
+      "text": "Sri Lankan Leopards"
+    },
+    "leopard-locations": {
+      "section-title": "Where You will Discover Leopards",
+      "locations": [
+        {
+          "name": "Yala National Park: The Leopard Paradise",
+          "description": "Yala National Park, situated in the southeastern corner of Sri Lanka, stands as the undisputed leopard haven in the country. Renowned for having one of the highest leopard densities in the world, Yala offers an unparalleled safari experience. The park's diverse landscapes, ranging from dense jungles to arid plains, provide an ideal habitat for these elusive big cats. With the expert guidance of seasoned park rangers, visitors can witness the majestic leopards prowling through the wilderness, their golden coats blending seamlessly with the surrounding foliage.",
+          "image": { "src": "images/Leopard2.webp", "alt": "leopard" }
+        },
+        {
+          "name": "Wilpattu National Park: Leopards in the Land of Lakes",
+          "description": "Wilpattu National Park offers a unique setting for leopard sightings in the midst of its expansive lake-studded landscapes. The park's undulating terrain, dotted with ancient ruins and bordered by serene water bodies, creates an atmospheric backdrop for encounters with the elusive leopards. Wilpattu's dense foliage and hidden waterholes provide the perfect camouflage for these big cats, making each safari a thrilling journey of anticipation. The combination of historical charm and natural beauty makes Wilpattu a captivating destination for those seeking the thrill of leopard sightings within the tranquil embrace of Sri Lanka's oldest and largest national park.",
+          "image": { "src": "images/wilpattu-leopard.webp", "alt": "leopard" }
+        },
+        {
+          "name": "Udawalawe National Park: Leopards in the Heartland of Giants",
+          "description": "Udawalawe National Park, located in the southeastern part of the country, is renowned for its impressive population of Sri Lankan elephants, but it also offers a chance to witness the stealth and grace of leopards in their natural habitat. The open grasslands and scrub jungles of Udawalawe provide a contrasting landscape to other leopard habitats in Sri Lanka. As visitors embark on safari adventures, the presence of these elusive big cats adds an extra layer of excitement to the exploration of this expansive wilderness. Udawalawe, with its diverse ecosystems and charismatic wildlife, invites nature enthusiasts to experience the dynamic coexistence of giants, both the pachyderms and the majestic leopards, within the heartland of Udawalawe National Park.",
+          "image": { "src": "images/udawalawe-leopard.webp", "alt": "leopard" }
+        }
+      ]
+    },
+    "leopard-threats": {
+      "section-title": "Threats of leopards",
+      "threats": [
+        {
+          "title": "Habitat Loss",
+          "description": "Habitat loss poses a significant threat to leopard populations in Sri Lanka. As human populations expand, forests and natural habitats are often cleared for agriculture, infrastructure development, and urbanization. This results in a shrinking living space for leopards, leading to increased human-leopard conflicts and restricting their ability to find prey. In the face of escalating habitat loss, the plight of Sri Lanka's leopard populations becomes ever more urgent. As human activities encroach upon the natural landscapes, the consequences reverberate through the delicate balance of ecosystems. The expansion of human settlements, the clearing of forests for agriculture, the march of urbanization, and the relentless push for infrastructure development collectively diminish the once-expansive territories of these magnificent big cats.",
+          "image": {
+            "src": "images/leopard-habitat.webp",
+            "alt": "threat-image"
+          },
+          "consequences": [
+            "Disrupts their natural behavior",
+            "Reduces prey availability",
+            "Increases Human-Wildlife Conflict",
+            "Loss of Biodiversity"
+          ],
+          "measures": "Conservation efforts focus on mitigating habitat loss by establishing and maintaining protected areas and wildlife corridors. Reforestation projects aim to restore degraded habitats, providing essential living spaces for leopards. Conservation institutions, such as the Sri Lanka Wildlife Conservation Society, actively work on habitat restoration projects and engage with local communities to promote sustainable land-use practices."
+        },
+        {
+          "title": "Illegal Wildlife Trade",
+          "description": "Illegal wildlife trade, driven by demand for leopard skins, bones, and other body parts, poses a serious threat to Sri Lanka's leopard population. Poaching for the exotic pet trade and traditional medicine markets contributes to a decline in leopard numbers. The shadow of illegal wildlife trade looms large over Sri Lanka's leopard population, casting a dark veil on the very essence of the country's natural heritage. Driven by insatiable demand for leopard skins, bones, and other body parts, this illicit trade network poses a grave threat to the survival of these majestic big cats.",
+          "image": { "src": "images/Leopard.webp", "alt": "threat-image" },
+          "consequences": [
+            "Genetic Diversity Loss",
+            "Threat of Endangered Status",
+            "Population Decline",
+            "Disruption of Ecosystem Dynamics"
+          ],
+          "measures": "To combat illegal wildlife trade, Sri Lanka has implemented stringent anti-poaching measures and increased law enforcement efforts. Conservation organizations like the Wildlife and Nature Protection Society of Sri Lanka work tirelessly to raise awareness about the consequences of wildlife trade and collaborate with law enforcement agencies to combat this illicit activity. Public education campaigns emphasize the importance of protecting leopards and the broader ecosystem from the threats posed by illegal wildlife trade."
+        }
+      ]
+    }
+  }
+}

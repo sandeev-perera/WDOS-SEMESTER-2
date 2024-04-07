@@ -1,0 +1,44 @@
+{
+  "main": {
+    "banner": {
+      "image": { "src": "images/banner3.webp", "alt": "banner" },
+      "text": "Sri Lanka Animals"
+    },
+    "animals": {
+      "section-title": "Animals in Sri Lanka",
+      "animals": [
+        {
+          "name": "Ceylon Spitting Cobra (Naja naja naja)",
+          "description": "The Ceylon Spitting Cobra, also known as the Sri Lankan cobra, is a venomous snake endemic to the island. With its hooded appearance and the ability to spit venom accurately at threats, this snake is a fascinating yet potentially dangerous species. Found in a range of habitats, including forests and agricultural areas, the Ceylon Spitting Cobra plays a vital role in controlling rodent populations.",
+          "image": {
+            "src": "images/snake.webp",
+            "alt": "Ceylon Spitting Cobra"
+          }
+        },
+        {
+          "name": "Sri Lankan Sloth Bear",
+          "description": "The Sri Lankan Sloth Bear is a subspecies of the sloth bear native to Sri Lanka. Distinguished by its shaggy fur and distinct facial markings, these bears are primarily found in the dry lowland forests. Sri Lankan Sloth Bears are omnivores, feeding on a variety of food items, including insects, fruits, and occasionally small mammals. The uniqueness of their appearance and behavior makes them a charismatic species in Sri Lanka's wildlife.",
+          "image": {
+            "src": "images/sloth-bear.webp",
+            "alt": "Sri Lankan Sloth Bear"
+          }
+        },
+        {
+          "name": "Purple-Faced Langur",
+          "description": "The Purple-Faced Langur, or 'Lankavanam Monkey,' is an endemic primate species found exclusively in Sri Lanka. Recognized for its striking purple face and grayish-brown fur, this langur inhabits the island's montane forests. Due to habitat loss and fragmentation, the Purple-Faced Langur faces conservation challenges, making its protection vital for preserving Sri Lanka's unique biodiversity.",
+          "image": {
+            "src": "images/animal2.webp",
+            "alt": "Purple-Faced Langur"
+          }
+        }
+      ]
+    },
+    "wild-life-locations": {
+      "section-title": "Explore More about",
+      "locations": [
+        { "text": "Yala National Park", "href": "Yala.html" },
+        { "text": "Willpattu National Park", "href": "Wilpattu.html" }
+      ]
+    }
+  }
+}

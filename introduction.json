@@ -1,0 +1,135 @@
+{
+  "main": {
+    "banner": {
+      "image": { "src": "images/banner.webp", "alt": "banner-img" },
+      "text": "Introduction To Sri Lanka Wildlife"
+    },
+
+    "wild-life-locations": {
+      "section-title": "Wild life Locations in Sri Lanka",
+      "locations": [
+        {
+          "name": "Sinharaja Forest",
+          "description": [
+            "Nestled in the heart of Sri Lanka, the Sinharaja Forest Reserve stands as a verdant testament to the island's unparalleled biodiversity and ecological significance. Recognized as a UNESCO World Heritage Site, this enchanting tropical rainforest is a sanctuary of awe-inspiring beauty and a haven for nature enthusiasts seeking an immersive journey into the untouched wilderness.",
+            "Sinharaja, meaning \"Lion's Kingdom,\" beckons with a rich tapestry of flora and fauna, including many species found nowhere else on Earth. Spanning approximately 8,864 hectares, this forest reserve is a haven for endemic and endangered species, making it a crucial hotspot for biodiversity conservation."
+          ],
+          "images": [
+            {
+              "src": "images/sinharaja.webp",
+              "alt": "animal in sinharaja"
+            },
+            {
+              "src": "images/sinharaja2.webp",
+              "alt": "animal in sinharaja"
+            },
+            {
+              "src": "images/sinharaja3.webp",
+              "alt": "animal in sinharaja"
+            }
+          ],
+          "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31718.70025776594!2d80.42327225067447!3d6.414916336187288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3e76bd109d45f%3A0x8c0ef1010649701b!2sSinharaja%20Forest%20Reserve!5e0!3m2!1sen!2slk!4v1703502590954!5m2!1sen!2slk"
+        },
+        {
+          "id": "udawalawa",
+          "name": "Udawalawa Forest",
+          "description": [
+            "The Udawalawe Forest Reserve unfolds as a living canvas where nature's symphony orchestrates the rhythms of the wild. Stretching across 30,000 hectares, this natural haven is renowned for its remarkable population of Sri Lankan elephants, whose graceful presence against the backdrop of expansive grasslands creates an iconic spectacle. Beyond the majestic elephants, Udawalawe offers a diverse cast of wildlife characters—crocodiles basking in the sun, vividly colored birds dancing through the treetops, and graceful deer gracefully navigating the grassy terrain. Embarking on a safari adventure within the reserve unveils the unfolding drama of nature, providing a front-row seat to the intricate tales of survival and coexistence.",
+            "Udawalawe stands as a testament to Sri Lanka's commitment to wildlife conservation. Here, the delicate balance between human communities and the untamed inhabitants of the reserve is carefully managed, showcasing a model of harmonious coexistence. As visitors traverse the well-maintained trails, they not only witness the breathtaking beauty of the wild but become part of a legacy that prioritizes the preservation of natural habitats. Udawalawe, with its boundless landscapes and diverse fauna, invites all who enter its realm to connect with the essence of the wild, fostering a deep appreciation for the intricate web of life that thrives within its pristine boundaries."
+          ],
+          "images": [
+            {
+              "src": "images/udawalawa.webp",
+              "alt": "Udawalawa animal",
+              "loading": "lazy"
+            },
+            {
+              "src": "images/udawalawa2.webp",
+              "alt": "Udawalawa-Animal",
+              "loading": "lazy"
+            },
+            {
+              "src": "images/udawalawa3.webp",
+              "alt": "Udawala-Animal",
+              "loading": "lazy"
+            }
+          ],
+          "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6569.8283726184!2d80.87231973041412!3d6.475135069145327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae408ff88887e79%3A0xaf12e79ffbd980d7!2sUdawalawe%20National%20Park!5e0!3m2!1sen!2slk!4v1703514986067!5m2!1sen!2slk"
+        },
+        {
+          "name": "Kaudulla Forest",
+          "description": [
+            "Kaudulla National Park unfolds as an untouched sanctuary where nature's elegance takes center stage. Spanning over 6,900 hectares, this pristine wilderness is a refuge for a diverse array of wildlife, offering a unique opportunity for visitors to witness the untamed beauty of the island. Kaudulla is particularly celebrated for its elephant gatherings, a breathtaking spectacle where herds of these gentle giants traverse the expansive landscapes, creating an awe-inspiring panorama against the lush backdrop.",
+            "Kaudulla is not merely a haven for elephants; it is a biodiversity marvel, with its rich tapestry of ecosystems providing a habitat for numerous species. Visitors embarking on a safari adventure through the park's well-established trails encounter not only the iconic elephants but also a mosaic of wildlife—graceful deer, playful monkeys, and an array of vibrant bird species. The rhythmic symphony of the forest, coupled with the captivating visual displays, creates an immersive experience that lingers in the hearts of those who seek the serenity and natural beauty of Kaudulla National Park."
+          ],
+          "images": [
+            {
+              "src": "images/kadulla.webp",
+              "alt": "Animal",
+              "loading": "lazy"
+            },
+            {
+              "src": "images/kadulla2.webp",
+              "alt": "Animal",
+              "loading": "lazy"
+            },
+            {
+              "src": "images/kadulla3.webp",
+              "alt": "Animal",
+              "loading": "lazy"
+            }
+          ],
+          "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.9092389635416!2d80.88327927414399!3d8.110723802688346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afb61f06b945489%3A0x745a344d553516b!2sKaudulla%20National%20Park!5e0!3m2!1sen!2slk!4v1703516089304!5m2!1sen!2slk"
+        },
+        {
+          "id": "bundala",
+          "name": "Bundala Forest",
+          "description": [
+            "Bundala National Park emerges as a sanctuary where wetland wonders and biodiversity seamlessly coexist. Encompassing over 6,200 hectares, this pristine coastal reserve is renowned for its expansive lagoons, intertidal mudflats, and lush thorny scrublands, creating an ideal habitat for a diverse array of avian species and other wildlife. Bundala stands as a testament to the delicate balance between nature and conservation, inviting visitors to explore its rich landscapes and witness the intricate dance of life within its boundaries.",
+            "Bundala is a haven for bird enthusiasts, with its wetlands serving as a crucial stopover for migratory birds. The park is home to an impressive variety of avian species, including flamingos, pelicans, and the endangered greater adjutant. Beyond the vibrant birdlife, Bundala hosts an array of reptiles, amphibians, and mammals, offering a comprehensive wildlife experience. As visitors embark on guided safaris, they are treated to the sight of elephants roaming near water sources, crocodiles basking in the sun, and the breathtaking backdrop of coastal scenery that defines the unique charm of Bundala National Park."
+          ],
+          "images": [
+            {
+              "src": "images/bundala.webp",
+              "alt": "Bundala Animal",
+              "loading": "lazy"
+            },
+            {
+              "src": "images/bundala2.webp",
+              "alt": "Bundala Animal",
+              "loading": "lazy"
+            },
+            {
+              "src": "images/bundala3.webp",
+              "alt": "Bundala Animal",
+              "loading": "lazy"
+            }
+          ],
+          "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14222.556927705502!2d81.20644828617218!3d6.198415939203549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae69842ecb214eb%3A0x145a2d402f36beb0!2sBundala%20National%20Park!5e0!3m2!1sen!2slk!4v1703573463000!5m2!1sen!2slk"
+        }
+      ]
+    },
+    "table": {
+      "animals": [
+        {
+          "name": "Elephant",
+          "image": "images/elephant.webp",
+          "alt": "elephant",
+          "facts": "Elephants are known for their exceptional memory and intelligence. Studies have shown that elephants can remember and recognize individual humans, even after many years. They also exhibit problem-solving skills, self-awareness, and strong social bonds within their herds. The complexity of their communication and ability to navigate across vast distances makes elephants one of the most intelligent and fascinating creatures in the animal kingdom."
+        },
+        {
+          "name": "Leopard",
+          "image": "images/leopard.webp",
+          "alt": "leopard-img",
+          "facts": "Leopards are known for their incredible strength and agility. Pound for pound, leopards are one of the strongest climbers among big cats and are capable of carrying prey twice their weight up into the treetops. They often hoist their kills into the branches to protect them from scavengers like lions or hyenas. This behavior not only safeguards their meal but also allows them to dine without interruptions from other predators. Leopards' climbing abilities make them highly versatile hunters and contribute to their success in a variety of habitats."
+        },
+        {
+          "name": "Kingfishers",
+          "image": "images/kigfisher.webp",
+          "alt": "kingfisher",
+          "facts": "Kingfishers are skilled hunters with a unique method of catching their prey. When hunting for fish, a kingfisher will perch on a branch or hover over the water, then dive into the water with incredible speed and accuracy. The moment of entry is so swift and precise that the bird creates very little disturbance in the water, increasing its chances of catching fish. Kingfishers have specialized, sharp bills adapted for gripping fish, and their excellent underwater vision aids in locating prey. This remarkable hunting technique makes kingfishers one of the most efficient and fascinating bird species."
+        }
+      ]
+    }
+  }
+}

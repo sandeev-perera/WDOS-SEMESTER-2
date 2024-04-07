@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/icons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/icons/site.webmanifest" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Editor</title>
+  </head>
+  <body>
+    <div class="editor">
+      <label for="page">Select Page: </label>
+      <select name="page" id="page" class="select_page">
+        <option value="home">Home Page</option>
+        <option value="introduction">Introduction Page</option>
+        <option value="department">Department Page</option>
+        <option value="leopards">Lepards Page</option>
+        <option value="animals">Animals Page</option>
+        <option value="wilpattu">Wilpattu Page</option>
+        <option value="yala">Yala Page</option>
+      </select>
+      <button id="select_page">Select Page</button>
+      <button id="edit_page">Edit Page</button>
+      <br>
+      <textarea
+        name=""
+        class="json_textarea"
+        id="textarea"
+        cols="100"
+        rows="20"
+        placeholder="the json data will diplay here."
+      ></textarea>
+    </div>
+    <script src="editor.js"></script>
+    <script src="fetchjson.js"></script>
+  </body>
+</html>

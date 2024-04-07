@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/icons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/icons/site.webmanifest" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Introduction</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/logo.webp" alt="logo" />
+        </a>
+      </div>
+      <div class="hamburger">
+        <img
+          src="images/hamburger-menu-svgrepo-com (1).svg"
+          alt="hamburger btn"
+        />
+      </div>
+      <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="Introduction.html">Introduction</a>
+        <a href="Department.html">Department</a>
+        <a href="Leopards.html">SL leopards</a>
+        <a href="Animals in SL.html">Animals in SL</a>
+        <a id="login_avatar" href="login.html"
+          ><img src="images/icons/login_avatar.png" alt="login"
+        /></a>
+      </div>
+      <div class="menu-mobile">
+        <a id="login_avatar" href="login.html"
+          ><img src="images/icons/login_avatar.png" alt="login"
+        /></a>
+        <a href="index.html">Home</a>
+        <a href="Introduction.html">Introduction</a>
+        <a href="Department.html">Department</a>
+        <a href="Leopards.html">SL leopards</a>
+        <a href="Animals in SL.html">Animals in SL</a>
+      </div>
+    </nav>
+    <main>
+      <div id="editor">
+      </div>
+      <section class="banner">
+        <img src="images/banner.webp" alt="banner-img" />
+        <p id="bannerText"></p>
+      </section>
+
+      <section class="wild-life-locations">
+        <h1 class="section-title" id="wild-life"></h1>
+        <ul>
+          <li><a href="#sinharaja">Sinharaja</a></li>
+          <li><a href="#udawalawa">Udawalawa</a></li>
+          <li><a href="#kadulla">Kaudulla</a></li>
+          <li><a href="#bundala">Bundala</a></li>
+        </ul>
+        <div class="location">
+          <h3 class="sub-title" id="sinharaja"></h3>
+          <p id="sinharaja-text"></p>
+          <p id="sinharaja-text-2"></p>
+          <div class="gallery-box" id="sinharaja-images"></div>
+          <div id="sinharaja-map"></div>
+        </div>
+
+        <div class="location">
+          <h3 class="sub-title" id="udawalawa"></h3>
+          <p id="udawalawa-text"></p>
+          <p id="udawalawa-text-2"></p>
+          <div class="gallery-box" id="udawalawa-images"></div>
+          <div id="udawalawa-map"></div>
+        </div>
+
+        <div class="location">
+          <h3 class="sub-title" id="kadulla"></h3>
+          <p id="kadulla-text"></p>
+          <p id="kadulla-text-2"></p>
+          <div class="gallery-box" id="kadulla-images"></div>
+          <div id="kadulla-map"></div>
+        </div>
+        <div class="location">
+          <h3 class="sub-title" id="bundala">Bundala Forest</h3>
+          <p id="bundala-text"></p>
+          <p id="bundala-text-2"></p>
+          <div class="gallery-box" id="bundala-images"></div>
+          <div id="bundala-map"></div>
+        </div>
+      </section>
+
+      <section class="table">
+        <table>
+          <thead>
+            <tr>
+              <th>Animal Name</th>
+              <th>Image</th>
+              <th>Interesting Facts</th>
+            </tr>
+          </thead>
+          <tbody id="table-body"></tbody>
+          <tfoot>
+            <tr>
+              <td colspan="3">
+                Explore the wonders of our planet's diverse wildlife
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer_tags">
+          <div class="footer_title"><p>Contact Us</p></div>
+          <a href="#">wildlife@gmail.com</a>
+          <a href="#">+94 112 888 585</a>
+          <a href="#">Battaramulla</a>
+        </div>
+        <div class="footer_tags">
+          <div class="footer_title"><p>Usefull Information</p></div>
+          <a href="index.html">Home</a>
+          <a href="Introduction.html">Introduction</a>
+          <a href="Department.html">Department</a>
+          <a href="Leopards.html">SL leopards</a>
+          <a href="Animals in SL.html">Animals in SL</a>
+        </div>
+        <div class="footer_tags footer_icons">
+          <div class="footer_title"><p>Visit</p></div>
+          <a href="https://twitter.com/slwcs_org?lang=en"
+            ><img src="images/icons/twitter.png" alt="twitter"
+          /></a>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            ><img src="images/icons/youtube.png" alt="youtube"
+          /></a>
+          <a href="https://www.instagram.com/srilankawildlife/?hl=en"
+            ><img src="images/icons/instagram.png" alt="instagram"
+          /></a>
+        </div>
+      </div>
+      <div class="news-letter">
+        <h3>Register for our Newsletter</h3>
+        <form action="#" method="post" id="subscribeForm">
+          <label for="email">Enter email</label>
+          <input type="email" id="email" name="email" required/>
+          <button type ="submit" id="submit">Submit</button>
+        </form>
+
+      </div>
+      <div class="footer-line">
+        <p>&copy; Wildlife Sri Lanka | All Rights Reserved</p>
+      </div>
+    </footer>
+    <script src="fetchjson.js"></script>
+    <script src="introdunction.js"></script>
+    <script src="newsletter.js"></script>
+
+  </body>
+</html>

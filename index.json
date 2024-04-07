@@ -1,0 +1,69 @@
+{
+  "main": {
+    "home-welcome-section": {
+      "text": "Discover the Untamed Wonders of Sri Lanka's Wildlife Sanctuary"
+    },
+    "welcome-note": {
+      "text-box": {
+        "section-title": {
+          "text": "Explore the Untamed Wilderness of Sri Lanka"
+        },
+        "welcome-text": "Immerse yourself in the breathtaking landscapes and extraordinary biodiversity that define Sri Lanka. From the lush rainforests to the pristine beaches, our island nation is a sanctuary for a diverse array of wildlife.",
+        "special": "BEGIN YOUR WILDLIFE JOURNEY"
+      }
+    },
+    "intro": {
+      "double-boxes": {
+        "information": {
+          "section-title": "Why Sri Lanka",
+          "text": "Nestled in the heart of the Indian Ocean, Sri Lanka unveils a spectacular showcase of biodiversity, making it a captivating destination for wildlife enthusiasts and nature lovers alike. Blessed with diverse ecosystems and a rich tapestry of landscapes, this tropical paradise boasts a wealth of unique flora and fauna that beckons exploration.Some of Our landscapes are",
+          "ordered-list": ["Sinharaja", "Yala", "Wilpatthu"],
+          "link": {
+            "href": "Introduction.html",
+            "text": "Learn More"
+          }
+        },
+        "image": {
+          "src": "images/bear.webp",
+          "alt": "Sri lankan bear"
+        }
+      }
+    },
+    "features": {
+      "section-title": "What You Will Discover",
+      "boxes": [
+        {
+          "image": {
+            "src": "images/elephant.webp",
+            "alt": "pic1"
+          },
+          "title": "Elephants in their Element",
+          "text": "Witness the gentle giants of Sri Lanka—the Asian elephants—in their natural habitats. The country is home to one of the highest elephant densities in Asia. Experience the awe-inspiring sight of these majestic creatures"
+        },
+        {
+          "image": {
+            "src": "images/leopard.webp",
+            "alt": "leopard"
+          },
+          "title": "Big Cat Encounters",
+          "text": "For the wildlife enthusiast seeking the elusive, Sri Lanka offers a chance to spot the majestic Sri Lankan big cats",
+          "unordered-list": [
+            "Leopards",
+            "Fishing Cat",
+            "Jungle Cat",
+            "Rusty Spotted Cat"
+          ]
+        },
+        {
+          "image": {
+            "src": "images/kigfisher.webp",
+            "alt": "kingfisher",
+            "id": "kingfisher"
+          },
+          "title": "Avian Extravaganza",
+          "text": "Sri Lanka is a birdwatcher's paradise, with over 400 bird species recorded. From vibrant kingfishers to the rare Sri Lanka blue magpie, the island is a symphony of avian life. Don't forget your binoculars, as you explore the diverse bird sanctuaries and wetlands."
+        }
+      ]
+    }
+  }
+}

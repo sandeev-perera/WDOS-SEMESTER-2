@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/icons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/icons/site.webmanifest" />
+    <link rel="stylesheet" href="Yala.css" />
+    <title>Yala National Forest</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/logo.webp" alt="logo" />
+        </a>
+      </div>
+      <div class="hamburger">
+        <img src="images/hamburger-menu-svgrepo-com (1).svg" alt="hamburger" />
+      </div>
+      <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="Introduction.html">Introduction</a>
+        <a href="Department.html">Department</a>
+        <a href="Leopards.html">SL leopards</a>
+        <a href="Animals in SL.html">Animals in SL</a>
+        <a id="login_avatar" href="login.html"
+          ><img src="images/icons/login_avatar.png" alt="login"
+        /></a>
+      </div>
+      <div class="menu-mobile">
+        <a id="login_avatar" href="login.html"
+          ><img src="images/icons/login_avatar.png" alt="login"
+        /></a>
+        <a href="index.html">Home</a>
+        <a href="Introduction.html">Introduction</a>
+        <a href="Department.html">Department</a>
+        <a href="Leopards.html">SL leopards</a>
+        <a href="Animals in SL.html">Animals in SL</a>
+      </div>
+    </nav>
+    <main>
+      <div id="editor"></div>
+      <div class="banner">
+        <img src="images/yala/yala3.webp" alt="banner" />
+        <p id="yala-banner"></p>
+      </div>
+
+      <section class="Introduction">
+        <div class="double-boxes">
+          <div class="information">
+            <h3 class="section-title" id="yala-intro"></h3>
+            <p id="yala-text"></p>
+            <a href="https://www.yalasrilanka.lk/" class="learn-more"
+              >Learn More</a
+            >
+          </div>
+          <div class="image">
+            <img src="images/yala.webp" alt="yala" />
+          </div>
+        </div>
+      </section>
+      <section class="discover">
+        <div class="section-title">
+          <h1>What you will discover</h1>
+        </div>
+        <ul class="discover-list" id="yala-discover"></ul>
+      </section>
+
+      <section class="forest-galery">
+        <div class="section-title">
+          <h1>Our Galley</h1>
+        </div>
+        <div class="Gallery" id="yala-gallery"></div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer_tags">
+          <div class="footer_title"><p>Contact Us</p></div>
+          <a href="#">wildlife@gmail.com</a>
+          <a href="#">+94 112 888 585</a>
+          <a href="#">Battaramulla</a>
+        </div>
+        <div class="footer_tags">
+          <div class="footer_title"><p>Usefull Information</p></div>
+          <a href="index.html">Home</a>
+          <a href="Introduction.html">Introduction</a>
+          <a href="Department.html">Department</a>
+          <a href="Leopards.html">SL leopards</a>
+          <a href="Animals in SL.html">Animals in SL</a>
+        </div>
+        <div class="footer_tags footer_icons">
+          <div class="footer_title"><p>Visit</p></div>
+          <a href="https://twitter.com/slwcs_org?lang=en"
+            ><img src="images/icons/twitter.png" alt="twitter"
+          /></a>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            ><img src="images/icons/youtube.png" alt="youtube"
+          /></a>
+          <a href="https://www.instagram.com/srilankawildlife/?hl=en"
+            ><img src="images/icons/instagram.png" alt="instagram"
+          /></a>
+        </div>
+      </div>
+      <div class="news-letter">
+        <h3>Register for our Newsletter</h3>
+        <form action="#" method="post" id="subscribeForm">
+          <label for="email">Enter email</label>
+          <input type="email" id="email" name="email" required />
+          <button type="submit" id="submit">Submit</button>
+        </form>
+      </div>
+      <div class="footer-line">
+        <p>&copy; Wildlife Sri Lanka | All Rights Reserved</p>
+      </div>
+    </footer>
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const menu = document.querySelector(".menu-mobile");
+      hamburger.addEventListener("click", () => {
+        menu.classList.toggle("open");
+      });
+    </script>
+    <script src="fetchjson.js"></script>
+    <script src="Yala.js"></script>
+    <script src="newsletter.js"></script>
+  </body>
+</html>

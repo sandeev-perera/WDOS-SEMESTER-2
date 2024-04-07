@@ -1,0 +1,82 @@
+{
+  "main": {
+    "banner": {
+      "image": { "src": "images/Willpattu/willpattu5.webp", "alt": "banner" },
+      "text": "Wilpattu National park"
+    },
+    "Introduction": {
+      "double-boxes": {
+        "information": {
+          "section-title": "Introduction",
+          "description": "In the pristine landscapes of northwestern Sri Lanka lies a realm where nature unfolds its grandeur in timeless splendor — Wilpattu National Park. Renowned as the largest and oldest national park in Sri Lanka, Wilpattu stretches across a vast expanse, inviting visitors to traverse its untamed wilderness and witness the remarkable tapestry of biodiversity that has flourished for centuries. Wilpattu captivates the senses with its diverse landscapes, ranging from dense woodlands adorned with towering trees to expansive open plains that stretch as far as the eye can see. The park's topography offers a habitat for a myriad of flora and fauna, creating a harmonious ecosystem where each element plays a vital role.",
+          "learn-more": {
+            "href": "https://www.wilpattunationalpark.com/",
+            "text": "Learn More"
+          }
+        },
+        "image": { "src": "images/yala.webp", "alt": "yala" }
+      }
+    },
+    "discover": {
+      "section-title": { "text": "What you will discover" },
+      "discover-list": [
+        "Ancient Villus and Water Reservoirs",
+        "Majestic Sri Lankan Leopards",
+        "Avian Symphony in the Skies",
+        "Cultural Immersion in Surrounding Villages"
+      ]
+    },
+    "forest_galery": {
+      "section-title": { "text": "Our Galley" },
+      "Gallery": {
+        "images": [
+          {
+            "src": "images/Willpattu/willpattu2.webp",
+            "alt": "wilpattu-img",
+            "loading": "lazy"
+          },
+          {
+            "src": "images/Willpattu/willpattu3.webp",
+            "alt": "wilpattu-img",
+            "loading": "lazy"
+          },
+          {
+            "src": "images/Willpattu/wilpattu1.webp",
+            "alt": "wilpattu-img",
+            "loading": "lazy"
+          },
+          {
+            "src": "images/Willpattu/willpattu4.webp",
+            "alt": "wilpattu-img",
+            "loading": "lazy"
+          },
+          {
+            "src": "images/Willpattu/willpattu5.webp",
+            "alt": "wilpattu-img",
+            "loading": "lazy"
+          },
+          {
+            "src": "images/sloth-bear.webp",
+            "alt": "wilpattu-img",
+            "loading": "lazy"
+          },
+          {
+            "src": "images/wilpattu-leopard.webp",
+            "alt": "wilpattu-img",
+            "loading": "lazy"
+          },
+          {
+            "src": "images/wilpaththu.jpg",
+            "alt": "wilpattu-img",
+            "loading": "lazy"
+          },
+          {
+            "src": "images/elephant.webp",
+            "alt": "wilpattu-img",
+            "loading": "lazy"
+          }
+        ]
+      }
+    }
+  }
+}
